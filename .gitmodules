@@ -1,0 +1,12 @@
+[submodule "XCS224N-Handouts"]
+	path = XCS224N-Handouts
+	url = https://github.com/scpd-proed/XCS224N-Handouts.git
+[submodule "XCS224N-A1"]
+	path = XCS224N-A1
+	url = https://github.com/scpd-proed/XCS224N-A1.git
+[submodule "XCS224N-A2"]
+	path = XCS224N-A2
+	url = https://github.com/scpd-proed/XCS224N-A2.git
+[submodule "XCS224N-A3"]
+	path = XCS224N-A3
+	url = https://github.com/scpd-proed/XCS224N-A3.git
