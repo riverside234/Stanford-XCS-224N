@@ -6,7 +6,7 @@ def multiple_choice_1():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = ['a']
+  response = []
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -19,7 +19,7 @@ def multiple_choice_2():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = ['a']
+  response = []
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -32,7 +32,7 @@ def multiple_choice_3a():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = ['b']
+  response = []
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -45,7 +45,7 @@ def multiple_choice_3b():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = ['a']
+  response = []
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -58,7 +58,7 @@ def multiple_choice_4a():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = ['b']
+  response = []
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -71,7 +71,7 @@ def multiple_choice_4b():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = ['c']
+  response = []
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -84,12 +84,12 @@ def multiple_choice_4c():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = ['d']
+  response = []
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
 
-def multiple_choice_4d():
+def multiple_choice_5a():
   """"""
   # Multiple Choice Response
   # Return a python collection with the option(s) that you believe are correct
@@ -97,12 +97,12 @@ def multiple_choice_4d():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = ['b']
+  response = []
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
 
-def multiple_choice_4e():
+def multiple_choice_5b():
   """"""
   # Multiple Choice Response
   # Return a python collection with the option(s) that you believe are correct
@@ -110,12 +110,12 @@ def multiple_choice_4e():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = ['a']
+  response = []
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
 
-def multiple_choice_5():
+def multiple_choice_5c():
   """"""
   # Multiple Choice Response
   # Return a python collection with the option(s) that you believe are correct
@@ -123,59 +123,7 @@ def multiple_choice_5():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = ['a']
-  ### START CODE HERE ###
-  ### END CODE HERE ###
-  return response
-
-def multiple_choice_6():
-  """"""
-  # Multiple Choice Response
-  # Return a python collection with the option(s) that you believe are correct
-  # like this:
-  # `return ['a']`
-  # or
-  # `return ['a', 'd']`
-  response = ['a']
-  ### START CODE HERE ###
-  ### END CODE HERE ###
-  return response
-
-def multiple_choice_7():
-  """"""
-  # Multiple Choice Response
-  # Return a python collection with the option(s) that you believe are correct
-  # like this:
-  # `return ['a']`
-  # or
-  # `return ['a', 'd']`
-  response = ['c']
-  ### START CODE HERE ###
-  ### END CODE HERE ###
-  return response
-
-def multiple_choice_8():
-  """"""
-  # Multiple Choice Response
-  # Return a python collection with the option(s) that you believe are correct
-  # like this:
-  # `return ['a']`
-  # or
-  # `return ['a', 'd']`
-  response = ['c']
-  ### START CODE HERE ###
-  ### END CODE HERE ###
-  return response
-
-def multiple_choice_9():
-  """"""
-  # Multiple Choice Response
-  # Return a python collection with the option(s) that you believe are correct
-  # like this:
-  # `return ['a']`
-  # or
-  # `return ['a', 'd']`
-  response = ['b']
+  response = []
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
