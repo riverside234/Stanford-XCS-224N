@@ -6,7 +6,7 @@ def multiple_choice_1():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = []
+  response = ['a', 'c']
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -19,7 +19,7 @@ def multiple_choice_2():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = []
+  response = ['b', 'c']
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -32,7 +32,7 @@ def multiple_choice_3a():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = []
+  response = ['a', 'c']
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -45,7 +45,7 @@ def multiple_choice_3b():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = []
+  response = ['a','b']
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -58,7 +58,7 @@ def multiple_choice_4a():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = []
+  response = ['b']
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -71,7 +71,7 @@ def multiple_choice_4b():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = []
+  response = ['a']
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -84,7 +84,7 @@ def multiple_choice_4c():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = []
+  response = ['a', 'b']
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -97,7 +97,7 @@ def multiple_choice_5a():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = []
+  response = ['c']
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -110,7 +110,7 @@ def multiple_choice_5b():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = []
+  response = ['a', 'b']
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response
@@ -123,7 +123,7 @@ def multiple_choice_5c():
   # `return ['a']`
   # or
   # `return ['a', 'd']`
-  response = []
+  response = ['a', 'b', 'c']
   ### START CODE HERE ###
   ### END CODE HERE ###
   return response

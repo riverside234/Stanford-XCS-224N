@@ -10,3 +10,6 @@
 [submodule "XCS224N-A3"]
 	path = XCS224N-A3
 	url = https://github.com/scpd-proed/XCS224N-A3.git
+[submodule "XCS224N-A5"]
+	path = XCS224N-A5
+	url = https://github.com/scpd-proed/XCS224N-A5.git
