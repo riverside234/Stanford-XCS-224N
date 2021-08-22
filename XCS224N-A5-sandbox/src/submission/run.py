@@ -63,6 +63,7 @@ if args.variant == 'vanilla':
 
     ### START CODE HERE
     model = model.GPT(mconf)
+    model.to(device)
     ### END CODE HERE
 
 
