@@ -57,7 +57,7 @@ def evaluate_places(filepath, predicted_places):
 
   Arguments:
     filepath: path to a file with our name, birth place data.
-    predicted_places: a list of strings representing the 
+    predicted_places: a list of strings representing the
         predicted birth place of each person.
 
   Returns: (total, correct), floats
