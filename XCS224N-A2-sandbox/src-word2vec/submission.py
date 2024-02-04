@@ -28,6 +28,9 @@ def sigmoid(x):
   """
 
   ### START CODE HERE
+
+  s = 1/(1 + np.exp(-x))
+
   ### END CODE HERE
 
   return s
@@ -65,6 +68,16 @@ def naive_softmax_loss_and_gradient(center_word_vec,outside_word_idx,outside_vec
   ### to integer overflow.
   
   ### START CODE HERE
+
+  yHat = softmax(np.matmul(outside_vectors, center_word_vec))
+  loss = -np.log(yHat[outside_word_idx])
+
+  y = np.zeros((np.shape(yHat)))
+  y[outside_word_idx] = 1
+ 
+  grad_center_vec = np.matmul(outside_vectors.T, (yHat - y))
+  grad_outside_vecs = np.outer((yHat - y), center_word_vec)
+
   ### END CODE HERE
 
   return loss, grad_center_vec, grad_outside_vecs
@@ -143,6 +156,17 @@ def skipgram(current_center_word, window_size, outside_words, word2ind, center_w
   grad_outside_vectors = np.zeros(outside_vectors.shape)
 
   ### START CODE HERE
+  center_index = word2ind[current_center_word]
+  center_vec = center_word_vectors[center_index]
+
+  for word in outside_words:
+    
+    out_index = word2ind[word]
+
+    loss_curr, gradc, grado = word2vec_loss_and_gradient(center_vec, out_index, outside_vectors, dataset)
+    loss = loss + loss_curr
+    grad_center_vecs[center_index] += gradc
+    grad_outside_vectors = grad_outside_vectors + grado
   ### END CODE HERE
 
   return loss, grad_center_vecs, grad_outside_vectors
@@ -243,6 +267,8 @@ def sgd(f, x0, step, iterations, postprocessing=None, use_saved=False,PRINT_EVER
 
     loss = None
     ### START CODE HERE
+    loss, grad = f(x)
+    x -= step * grad
     ### END CODE HERE
 
     x = postprocessing(x)
